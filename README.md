@@ -1,5 +1,5 @@
 # C# API Connector class created by OpenAI's ChatGPT itself
-:computer: This is code was created by a conversation with OpenAI's ChatGPT, ChatGPT created code to connect to the ChatGPT API.
+:computer: This C# code was created by a conversation with OpenAI's ChatGPT, ChatGPT created code to connect to the ChatGPT API.
 
 I have logged the below chat with ChatGPT and code below, the code from the last question could be quite handy!
 
