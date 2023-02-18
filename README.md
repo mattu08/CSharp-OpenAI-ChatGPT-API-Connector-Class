@@ -1,7 +1,7 @@
 # C# API Connector class created by OpenAI's ChatGPT itself
-This is code was created by a conversation with OpenAI's ChatGPT, ChatGPT created code to connect to the ChatGPT API.
+:computer: This is code was created by a conversation with OpenAI's ChatGPT, ChatGPT created code to connect to the ChatGPT API.
 
-I have logged the below chat with ChatGPT and code below, could be quite handy!
+I have logged the below chat with ChatGPT and code below, the code from the last question could be quite handy!
 
 ## First Question Asked: Can you create a C# class that can connect up to ChatGPT?
 
