@@ -122,4 +122,10 @@ Console.WriteLine(response);
 
 Note that the **'ChatbotClient'** class in this example is specific to the OpenAI Codex API. If you are using a different OpenAI API or a different chatbot service, you will need to modify the code accordingly.
 
+I hope this helps! Let me know if you have any questions.
 
+Me: Thank You!
+
+ChatGPT: You're welcome! If you have any more questions or if there's anything else I can help you with, feel free to ask.
+
+**End Of Chat.** 
