@@ -1,4 +1,4 @@
-# c# API Connector class created by OpenAI's ChatGPT itself
+# C# API Connector class created by OpenAI's ChatGPT itself
 This is code was created by a conversation with OpenAI's ChatGPT, ChatGPT created code to connect to the ChatGPT API.
 
 I have logged the below chat with ChatGPT and code below, could be quite handy!
@@ -11,7 +11,8 @@ Here is a sample C# class that uses the HttpClient class from the System.Net.Htt
 
 To use this class, you'll need to obtain an API key from the OpenAI platform.
 
-```using System;
+```cs
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -46,13 +47,13 @@ public class ChatbotClient
 
 You can create an instance of this class by passing the URL of the API endpoint as a parameter to the constructor, like so:
 
-```
+```cs
 var chatbotClient = new ChatbotClient("https://api.example.com/chatbot");
 ```
 
 You can then use the SendMessage method to send a message to the chatbot and receive a response:
 
-```
+```cs
 var response = await chatbotClient.SendMessage("Hello, ChatGPT!");
 Console.WriteLine(response);
 ```
@@ -63,7 +64,7 @@ Note that this is just a sample implementation, and the actual implementation ma
 
 Sure! To use the OpenAI API, you would need to obtain an API key from the OpenAI platform. Once you have your API key, you can modify the **'ChatbotClient'** class to include the authentication header in the HTTP request. Here's an updated version of the **'ChatbotClient'** class that includes the OpenAI API key:
 
-```
+```cs
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -106,7 +107,7 @@ public class ChatbotClient
 
 To use this class, create an instance of **'ChatbotClient'** by passing the URL of the OpenAI API endpoint and your API key:
 
-```
+```cs
 var chatbotClient = new ChatbotClient(
     "https://api.openai.com/v1/engines/davinci-codex/completions",
     "YOUR_API_KEY_HERE");
@@ -114,7 +115,7 @@ var chatbotClient = new ChatbotClient(
 
 Then, you can use the **'SendMessage'** method to send a message to the OpenAI chatbot:
 
-```
+```cs
 var response = await chatbotClient.SendMessage("Hello, ChatGPT!");
 Console.WriteLine(response);
 ```
