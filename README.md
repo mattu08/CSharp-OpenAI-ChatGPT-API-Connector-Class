@@ -124,7 +124,7 @@ Note that the **'ChatbotClient'** class in this example is specific to the OpenA
 
 I hope this helps! Let me know if you have any questions.
 
-Me: Thank You!
+Me: Thank You
 
 ChatGPT: You're welcome! If you have any more questions or if there's anything else I can help you with, feel free to ask.
 
